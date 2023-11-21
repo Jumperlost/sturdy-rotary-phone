@@ -30,7 +30,7 @@ console.log(arr);
 let generateKey = (length, chars) => {
   let result = "";
   for (let i = length; i > 0; --i) {
-    result += chars[Math.floor(Math.random() * chars.length - 1)];
+    result += chars[Math.floor(Math.random() * chars.length)];
   }
   console.log(result);
 };
